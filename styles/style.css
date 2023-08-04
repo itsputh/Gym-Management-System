@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background-color: #39C;
+}
+
+.main_wrapper{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+}
+
+.header_wrapper{
+	width: 1000px;
+	height: 100px;
+	background-color: #FFF;
+}
+
+#navbar{
+	width: 1000px;
+	height: 50px;
+	background-color: #999;
+	color: #FFF;
+}
+
+#menu{
+	padding: 0px;
+	line-height: 36px;
+	margin-top: 5px;
+	float: left;
+}
+
+#menu li{
+	list-style: none;
+	display: inline;
+}
+
+#menu a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 5px;
+	padding: 10px;
+}
+
+#menu a:hover{
+	text-decoration: underline;
+	color: #333;
+	font-weight: bolder;
+}
+
+#login-btn-signup{
+	list-style: none;
+	float: right;
+	line-height: 50px;
+	padding-right: 10px;
+}
+#login-btn-signup a{
+	color: #FFF;
+	text-decoration: none;
+	font-size: 17px;
+	margin: 5px;
+	padding: 10px;
+}
+#login-btn-signup a:hover{
+	text-decoration: underline;
+	color: #333;
+	font-weight: bolder;
+}
+
+.content_wrapper{
+	width: 1000px;
+	height: auto;
+	background-color: #F96;
+}
+
+#right_content{
+	width: 800px;
+	background-color: #FCC;
+	float: right;
+}
+
+#left_sidebar{
+	width: 200px;
+	background-color: #000;
+	float: left;
+}
+
+.footer{
+	width: 1000px;
+	height: 75px;
+	background-color: #999;
+	color: #FFF;
+	clear: both;
+}
+.footer h5 a{
+	text-decoration: none;
+	color: #000;
+}
+.footer h5 a:hover{
+	color: white;
+}
+
+#sidebar_title{
+	background-color: #FFF;
+	color: #000;
+	padding: 10px;
+	font-size: 22px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, Serif;
+}
+
+#days{
+	text-align: center;
+	padding: 10px;
+}
+#days li{
+	list-style: none;
+	margin: 8px;
+}
+#days a{
+	color: #FFF;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 5px;
+}
+#days a:hover{
+	color: #F93;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#headline{
+	background-color: #000;
+	color: #FFF;
+	height: 35px;
+	width: 780px;
+	padding: 10px;
+	line-height: 40px;
+}
+
+#headline_content{
+	
+}
+
+#products_box{
+	width: 800px;
+	height: 485px;
+}
+
+#frm{
+	margin-left: 180px;
+	width: 400px;
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text],input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+#single_product{
+	float: left;
+	padding: 10px;
+}
+#single_product img{
+	border: 2px solid #333;
+}
